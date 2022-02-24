@@ -1,0 +1,65 @@
+Assignment 12 - Scaling Method Comparison
+
+LeSS - Large-Scale Scrum
+- LeSS is a set of principles, and elements on a large scale.
+- Like scrum and agile framework, LeSS is a "barely sufficient" model
+- There are 2 flavours of LeSS that are specifically developed and deployed for largely scaled organizations
+	+ smaller LeSS
+		= Upto 8 teams of 8 people each
+	+ LeSS Huge
+		= Up to a few thousand people on 1 product
+- It borrows most the definations of agile and scrum methodology. Single product backlog, one defination done, potentially shippable product at the end of each sprint, one product owner, cross-functinal team(s), one sprint at a time.
+
+Differnece with LeSS
+x Sprint planning includes the teams as well. LeSS says to let the team members self-manage and divide the product backlog items.
+x Sprint planning 2 is help mostly in parallel by each team which may or may not involve co-operation from different teams.
+x Each team conducts their daily scurm independently, other team's member's can be silent observers
+x There can be a optional product backlog refinement (pbr) meeting with all teams
+x Teams can also implement pbr on their own, teams share the same meeting room to discuss potential ways to coloborate and refine the product backlog to match
+x sprint review meetings include all the teams, customers, users and stakeholders for inspection and discuss new items. It is a "bazaar" style meeting
+x Overall retrospectivel, similar to the agile retrospective but for all the teams.
+
+NEXUS
+- Nexus is build on scrum's framework.
+- It extends the scrum framework to work with multiple teams towards a single product backlog
+- Nexus is extended to work with 3 to 9 scrum teams
+- No product owner in each team, one product owner and one product backlog
+- Each team has a scrum master. It is not necessary that the scrum master is full time. The scrum master can be a single person for multiple teams
+- Nexus integration team
+	+ Nexus team intergration coordinates the work between all teams
+	+ This team consists of product owner, a scrum master and integration team members
+	+ Spint planning happens with each teams scrum master. They define the product backlog and plan their sprint on a team level and the interation between different teams where needed
+- Nexus Daily Scrum
+	+ Nexus daily scrum meet daily and identify any intergation issues that exists
+	+ teams then go back to their daily scrum and work towards that issue, raising issues for the next nexus daily scrum
+- Nexus Sprint review
+	+ similar to scrum, at the end of sprint to provide incremental feedback for the next sprint
+	+ meet with stakeholders to review the integrated increment
+	+ product backlog can be adjusted at this stage
+- Nexus sprint retrospective and refinement
+	+ representatives from each team meet to identify shared challanges
+	+ Each teams hold their individual retrospectives
+	+ teams meet again to discuss any actions based on shared challanges to provide bottom up intelligence
+
+DISCIPLINED AGILE DELIVERY
+- This is not a framework, but a toolkit
+- This is a learning oriented hybrid agile approach for an IT solution delivery
+- High risk delivery lifecycle, goal driven and is scalable like scrum
+- It is a part of devOps layer
+- DAD addresses other parts of the architecture where scrum left off eg. architecture, design, testing, programming documentation and more
+- DAD will slowly become a part of the PMI certification
+- DAD has lean components in it. DAD picks up the best bits from all the framewords and gives the teams/corporataions choices as opposed to prescriptions. It supports a scrum based agile life cycle, a kanban-based life cycle, contineous delivery life cycle and a "team of teams" life cycle.
+- DAD is capable of going beyond SAFe by giving the details needed for a solid foundation. SAFe leaves the details of the construction to the end user which can be a hit or a miss.
+- Just like scrum, DAD is constantly evolving with time and experiences
+
+SAFe
+- SAFe is a framework that works for the whole organization.
+- Operates on 4 levels: portfolio, value stream, program and team
+- Team roles are similar to a scrum framework of kanban. working in sprints for a product backlog as defined by a product owner and a scrum master to enable the development in iterations.
+- Program works on a similar level but these are multiple teams working towards a bigger solution. The solution is delivered in iterations (5 by default) these iterations are called Program Iterations (PT). and each iteration is called a agile release train (ART). The program level backlog is determined by a program manager. The release train is handled by Release Train Engineer
+- Teams come together to detemine the stories and check dependencies to deliver solutions at the end of a PI
+- The 5th PI is innovation time, retrospecitve and planning for the next ART
+- If a solution is too big for the Program to be maintained and built, it goes in the value stream layer. This layer consists of multiple program teams working towards a bigger solution. The solution manager is the one incharge of the backlog and value stream engineer runs the show across each stream
+- The portfolio is similar to what we have seen till now. Program portfolio manager helps dictate the streams using strategic themes and allocating budget for those streams
+- Need to train teams and amanagements to deliver value in SAFe
+- This is the widely used standard in scaled agile implementation
